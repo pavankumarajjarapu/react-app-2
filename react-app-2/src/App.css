@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.img{
+  width: 60px;
+  height: 90px;
+  margin: 20px;
+  border-radius: 50%;
+}
+.main_heading{
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  border-radius: 60%;
+  box-shadow: 2px 1px 3px black;
+  margin-bottom: 5px;
+  margin-top: 10px;
+ 
+}
+h1{
+  font-size: 3rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(165, 228, 19, 0.858);
+  font-weight: 800;
+}
+.bottom_container{
+  background-color: azure;
+  height: 100vh;
+  display: flex;
+  padding: 20px;
+}
+li{
+  list-style-type: none;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  color: rgb(40, 2, 9);
+}
+h2{
+  color: brown;
+}
+.country_logo{
+  height: 30px;
+  margin-right: 20px;
+
+}
+.groups{
+  background-color: aliceblue;
+  border: 2px groove gray;
+  height: 350px;
+  padding: 10px;
+  margin: 10px;
+}
+label{
+  font-size: 2rem;
+  color: brown;
+
+}
+input{
+  height: 2rem;
+  background-color: antiquewhite;
+}
